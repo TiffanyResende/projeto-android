@@ -15,8 +15,8 @@
     --cor5:#063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque: 'Bebas Neue', sans-serif;
-    --font-android: 'Android', sans-serif;
+    --fonte-destaque: 'Android', sans-serif;
+   
 }
 
 *{
@@ -53,7 +53,7 @@ header>p{
 
 header > h1{
     color: white;
-    font-family: var(--font-destaque);
+    font-family: var(--fonte-destaque);
     padding-top: 40px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
@@ -114,14 +114,14 @@ main  img.pequena{
 }
 main > h1{
     color: var(--cor5);
-    font-family: var(--font-android);
+    font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 1.8em;
 }
 
 main > h2 {
     color:var(--cor4) ;
-    font-family: var(--font-android);
+    font-family: var(--fonte-destaque);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
